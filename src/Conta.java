@@ -16,11 +16,6 @@ public abstract class Conta implements IConta {
     }
 
     @Override
-    public void sacar(double valor) {
-        saldo -= valor;
-    }
-
-    @Override
     public void depositar(double valor) {
         saldo += valor;
     }

@@ -9,10 +9,10 @@ public class Main {
         Conta poupanca = new ContaPoupanca(venilton);
 
         cc.depositar(100);
-        cc.transferir(100, poupanca);
+        cc.transferir(200, poupanca);
         
 //      tentando sacar mais dinheiro do que há na conta poupança:
-        poupanca.sacar(200);
+        poupanca.sacar(300);
         
 /*      tentando sacar mais dinheiro do que há na conta corrente,
         o cliente entra no cheque especial: */
